@@ -8,9 +8,8 @@
 Add this to your `.pre-commit-config.yaml`
 
 ```yaml
--   repo: https://github.com/fsouza/pre-commit-pyre-check
-    rev: ''  # Use the sha / tag you want to point at
-    hooks:
-    -   id: pyre-check
+- repo: https://github.com/sheikhomar/pre-commit-pyre-check
+  rev: ''  # Use the sha / tag you want to point at
+  hooks:
+  - id: pyre-check
 ```
-
